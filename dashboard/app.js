@@ -1,38 +1,65 @@
 const overallStatus = document.getElementById("overall-status");
 const healthScore = document.getElementById("health-score");
 
-const servicesContainer = document.getElementById("services-container");
+const servicesContainer =
+    document.getElementById("services-container");
 
-const cpu = document.getElementById("cpu");
-const memory = document.getElementById("memory");
-const disk = document.getElementById("disk");
+const cpu =
+    document.getElementById("cpu");
 
-const alertsDiv = document.getElementById("alerts");
+const memory =
+    document.getElementById("memory");
+
+const disk =
+    document.getElementById("disk");
+
+const alertsDiv =
+    document.getElementById("alerts");
 
 const serviceCount =
     document.getElementById("service-count");
 
 const lastUpdated =
     document.getElementById("last-updated");
+
+
+// Browser accesses backend through exposed localhost port
+const API_BASE_URL = "http://localhost:8000";
+
+
 // Chart Setup
-const ctx = document.getElementById("latencyChart").getContext("2d");
+const ctx =
+    document.getElementById("latencyChart")
+        .getContext("2d");
 
 const latencyChart = new Chart(ctx, {
+
     type: "line",
+
     data: {
+
         labels: [],
+
         datasets: [
             {
                 label: "Average Latency (ms)",
+
                 data: [],
+
                 borderColor: "#38bdf8",
-                backgroundColor: "rgba(56,189,248,0.2)",
+
+                backgroundColor:
+                    "rgba(56,189,248,0.2)",
+
                 tension: 0.3
             }
         ]
     },
+
     options: {
+
         responsive: true,
+
         plugins: {
             legend: {
                 labels: {
@@ -40,12 +67,15 @@ const latencyChart = new Chart(ctx, {
                 }
             }
         },
+
         scales: {
+
             x: {
                 ticks: {
                     color: "white"
                 }
             },
+
             y: {
                 ticks: {
                     color: "white"
@@ -59,7 +89,8 @@ const latencyChart = new Chart(ctx, {
 // Fetch Health Data
 async function fetchHealth() {
 
-    const response = await fetch("http://127.0.0.1:8000/health");
+    const response =
+        await fetch(`${API_BASE_URL}/health`);
 
     const data = await response.json();
 
@@ -68,11 +99,12 @@ async function fetchHealth() {
 
     healthScore.innerText =
         `Health Score: ${data.health_score}%`;
-        serviceCount.innerText =
-    `Services Monitored: ${data.services.length}`;
 
-lastUpdated.innerText =
-    `Last Updated: ${new Date().toLocaleTimeString()}`;
+    serviceCount.innerText =
+        `Services Monitored: ${data.services.length}`;
+
+    lastUpdated.innerText =
+        `Last Updated: ${new Date().toLocaleTimeString()}`;
 
     servicesContainer.innerHTML = "";
 
@@ -80,18 +112,25 @@ lastUpdated.innerText =
 
     data.services.forEach(service => {
 
-        totalLatency += service.response_time_ms || 0;
+        totalLatency +=
+            service.response_time_ms || 0;
 
-        const card = document.createElement("div");
+        const card =
+            document.createElement("div");
 
         card.classList.add("service-card");
 
         card.innerHTML = `
             <h3>${service.service}</h3>
+
             <p class="${service.status}">
                 ${service.status.toUpperCase()}
             </p>
-            <p>Latency: ${service.response_time_ms} ms</p>
+
+            <p>
+                Latency:
+                ${service.response_time_ms} ms
+            </p>
         `;
 
         servicesContainer.appendChild(card);
@@ -106,13 +145,15 @@ lastUpdated.innerText =
 
     latencyChart.data.labels.push(currentTime);
 
-    latencyChart.data.datasets[0].data.push(avgLatency);
+    latencyChart.data.datasets[0]
+        .data.push(avgLatency);
 
     if (latencyChart.data.labels.length > 10) {
 
         latencyChart.data.labels.shift();
 
-        latencyChart.data.datasets[0].data.shift();
+        latencyChart.data.datasets[0]
+            .data.shift();
     }
 
     latencyChart.update();
@@ -123,7 +164,7 @@ lastUpdated.innerText =
 async function fetchMetrics() {
 
     const response =
-        await fetch("http://127.0.0.1:8000/metrics");
+        await fetch(`${API_BASE_URL}/metrics`);
 
     const data = await response.json();
 
@@ -142,7 +183,7 @@ async function fetchMetrics() {
 async function fetchAlerts() {
 
     const response =
-        await fetch("http://127.0.0.1:8000/alerts");
+        await fetch(`${API_BASE_URL}/alerts`);
 
     const data = await response.json();
 
@@ -158,7 +199,8 @@ async function fetchAlerts() {
 
     data.alerts.forEach(alert => {
 
-        const div = document.createElement("div");
+        const div =
+            document.createElement("div");
 
         div.classList.add("alert-item");
 
@@ -178,11 +220,24 @@ async function fetchAlerts() {
 // Main Dashboard Refresh
 async function refreshDashboard() {
 
-    await fetchHealth();
+    try {
 
-    await fetchMetrics();
+        await fetchHealth();
 
-    await fetchAlerts();
+        await fetchMetrics();
+
+        await fetchAlerts();
+
+    } catch (error) {
+
+        console.error(
+            "Dashboard refresh failed:",
+            error
+        );
+
+        overallStatus.innerText =
+            "BACKEND OFFLINE";
+    }
 }
 
 
