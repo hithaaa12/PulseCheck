@@ -83,5 +83,10 @@ FastAPI Monitoring API
 Health Check Engine
      ↓
 External Services + System Metrics
+```
+
+# Architecture Diagram
 
 ![Architecture Diagram](assets/architecture-diagram.png)
+
+# Project Structure
