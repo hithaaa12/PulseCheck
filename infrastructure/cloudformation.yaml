@@ -1,6 +1,6 @@
 AWSTemplateFormatVersion: '2010-09-09'
 
-Description: PulseCheck ECS Fargate Deployment
+Description: PulseCheck ECS Fargate Infrastructure
 
 Resources:
 
