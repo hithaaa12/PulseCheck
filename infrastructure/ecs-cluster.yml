@@ -1,0 +1,59 @@
+AWSTemplateFormatVersion: '2010-09-09'
+
+Description: PulseCheck ECS Fargate Deployment
+
+Resources:
+
+  PulseCheckCluster:
+    Type: AWS::ECS::Cluster
+    Properties:
+      ClusterName: PulseCheckCluster
+
+  PulseCheckTaskDefinition:
+    Type: AWS::ECS::TaskDefinition
+    Properties:
+      Family: pulsecheck-task
+
+      Cpu: '256'
+
+      Memory: '512'
+
+      NetworkMode: awsvpc
+
+      RequiresCompatibilities:
+        - FARGATE
+
+      ExecutionRoleArn: arn:aws:iam::123456789012:role/ecsTaskExecutionRole
+
+      ContainerDefinitions:
+
+        - Name: pulsecheck-container
+
+          Image: pulsecheck:latest
+
+          Essential: true
+
+          PortMappings:
+
+            - ContainerPort: 8000
+
+  PulseCheckService:
+    Type: AWS::ECS::Service
+    Properties:
+
+      Cluster: !Ref PulseCheckCluster
+
+      DesiredCount: 1
+
+      LaunchType: FARGATE
+
+      TaskDefinition: !Ref PulseCheckTaskDefinition
+
+      NetworkConfiguration:
+
+        AwsvpcConfiguration:
+
+          AssignPublicIp: ENABLED
+
+          Subnets:
+            - subnet-12345678
