@@ -1,0 +1,201 @@
+2026-05-20 00:43:02,494 - INFO - GitHub API healthy - 160.0ms
+2026-05-20 00:43:02,663 - INFO - Google healthy - 167.97ms
+2026-05-20 00:43:02,723 - INFO - OpenAI healthy - 59.02ms
+2026-05-20 00:43:06,535 - INFO - GitHub API healthy - 152.32ms
+2026-05-20 00:43:06,727 - INFO - Google healthy - 191.98ms
+2026-05-20 00:43:06,775 - INFO - OpenAI healthy - 48.0ms
+2026-05-20 00:51:32,171 - INFO - GitHub API healthy - 189.01ms
+2026-05-20 00:51:32,374 - INFO - Google healthy - 202.0ms
+2026-05-20 00:51:32,458 - INFO - OpenAI healthy - 83.99ms
+2026-05-20 00:51:32,857 - INFO - GitHub API healthy - 132.0ms
+2026-05-20 00:51:33,032 - INFO - Google healthy - 173.91ms
+2026-05-20 00:51:33,084 - INFO - OpenAI healthy - 51.99ms
+2026-05-20 00:51:37,838 - INFO - GitHub API healthy - 118.98ms
+2026-05-20 00:51:38,028 - INFO - Google healthy - 190.0ms
+2026-05-20 00:51:38,083 - INFO - OpenAI healthy - 54.0ms
+2026-05-20 00:51:40,836 - INFO - GitHub API healthy - 172.18ms
+2026-05-20 00:51:41,048 - INFO - Google healthy - 211.17ms
+2026-05-20 00:51:41,100 - INFO - OpenAI healthy - 52.27ms
+2026-05-20 00:51:45,819 - INFO - GitHub API healthy - 139.07ms
+2026-05-20 00:51:46,043 - INFO - Google healthy - 223.24ms
+2026-05-20 00:51:46,115 - INFO - OpenAI healthy - 71.91ms
+2026-05-20 00:51:50,807 - INFO - GitHub API healthy - 141.11ms
+2026-05-20 00:51:50,999 - INFO - Google healthy - 192.01ms
+2026-05-20 00:51:51,052 - INFO - OpenAI healthy - 53.09ms
+2026-05-20 00:51:55,802 - INFO - GitHub API healthy - 131.19ms
+2026-05-20 00:51:55,974 - INFO - Google healthy - 171.72ms
+2026-05-20 00:51:56,018 - INFO - OpenAI healthy - 42.98ms
+2026-05-20 00:52:00,800 - INFO - GitHub API healthy - 131.1ms
+2026-05-20 00:52:01,022 - INFO - Google healthy - 222.19ms
+2026-05-20 00:52:01,076 - INFO - OpenAI healthy - 52.88ms
+2026-05-20 00:52:05,816 - INFO - GitHub API healthy - 149.03ms
+2026-05-20 00:52:06,024 - INFO - Google healthy - 207.99ms
+2026-05-20 00:52:06,101 - INFO - OpenAI healthy - 76.0ms
+2026-05-20 00:52:10,848 - INFO - GitHub API healthy - 136.57ms
+2026-05-20 00:52:11,020 - INFO - Google healthy - 171.9ms
+2026-05-20 00:52:11,071 - INFO - OpenAI healthy - 50.0ms
+2026-05-20 00:52:15,882 - INFO - GitHub API healthy - 156.01ms
+2026-05-20 00:52:16,076 - INFO - Google healthy - 194.0ms
+2026-05-20 00:52:16,132 - INFO - OpenAI healthy - 55.08ms
+2026-05-20 00:52:20,879 - INFO - GitHub API healthy - 166.99ms
+2026-05-20 00:52:21,069 - INFO - Google healthy - 190.04ms
+2026-05-20 00:52:21,121 - INFO - OpenAI healthy - 51.96ms
+2026-05-20 00:52:25,861 - INFO - GitHub API healthy - 138.47ms
+2026-05-20 00:52:26,058 - INFO - Google healthy - 195.58ms
+2026-05-20 00:52:26,176 - INFO - OpenAI healthy - 118.22ms
+2026-05-20 00:52:30,805 - INFO - GitHub API healthy - 134.99ms
+2026-05-20 00:52:30,977 - INFO - Google healthy - 172.07ms
+2026-05-20 00:52:31,032 - INFO - OpenAI healthy - 55.0ms
+2026-05-20 00:52:35,798 - INFO - GitHub API healthy - 127.98ms
+2026-05-20 00:52:36,020 - INFO - Google healthy - 222.41ms
+2026-05-20 00:52:36,084 - INFO - OpenAI healthy - 63.0ms
+2026-05-20 00:52:40,797 - INFO - GitHub API healthy - 118.48ms
+2026-05-20 00:52:40,988 - INFO - Google healthy - 190.34ms
+2026-05-20 00:52:41,058 - INFO - OpenAI healthy - 70.01ms
+2026-05-20 00:52:45,862 - INFO - GitHub API healthy - 140.38ms
+2026-05-20 00:52:46,037 - INFO - Google healthy - 175.0ms
+2026-05-20 00:52:46,110 - INFO - OpenAI healthy - 72.51ms
+2026-05-20 00:52:50,861 - INFO - GitHub API healthy - 136.0ms
+2026-05-20 00:52:51,060 - INFO - Google healthy - 199.08ms
+2026-05-20 00:52:51,138 - INFO - OpenAI healthy - 77.92ms
+2026-05-20 00:52:55,874 - INFO - GitHub API healthy - 148.99ms
+2026-05-20 00:52:56,120 - INFO - Google healthy - 245.01ms
+2026-05-20 00:52:56,197 - INFO - OpenAI healthy - 77.01ms
+2026-05-20 00:53:00,967 - INFO - GitHub API healthy - 242.99ms
+2026-05-20 00:53:01,191 - INFO - Google healthy - 224.0ms
+2026-05-20 00:53:01,316 - INFO - OpenAI healthy - 125.12ms
+2026-05-20 00:53:05,956 - INFO - GitHub API healthy - 237.28ms
+2026-05-20 00:53:06,229 - INFO - Google healthy - 273.43ms
+2026-05-20 00:53:06,295 - INFO - OpenAI healthy - 64.98ms
+2026-05-20 00:53:10,840 - INFO - GitHub API healthy - 126.55ms
+2026-05-20 00:53:11,035 - INFO - Google healthy - 194.98ms
+2026-05-20 00:53:11,109 - INFO - OpenAI healthy - 72.99ms
+2026-05-20 00:53:15,867 - INFO - GitHub API healthy - 153.0ms
+2026-05-20 00:53:16,056 - INFO - Google healthy - 189.0ms
+2026-05-20 00:53:16,112 - INFO - OpenAI healthy - 56.09ms
+2026-05-20 00:53:20,859 - INFO - GitHub API healthy - 147.0ms
+2026-05-20 00:53:21,065 - INFO - Google healthy - 206.0ms
+2026-05-20 00:53:21,119 - INFO - OpenAI healthy - 53.99ms
+2026-05-20 00:53:25,872 - INFO - GitHub API healthy - 146.81ms
+2026-05-20 00:53:26,088 - INFO - Google healthy - 214.99ms
+2026-05-20 00:53:26,159 - INFO - OpenAI healthy - 71.64ms
+2026-05-20 00:53:30,911 - INFO - GitHub API healthy - 184.9ms
+2026-05-20 00:53:31,099 - INFO - Google healthy - 188.0ms
+2026-05-20 00:53:31,235 - INFO - OpenAI healthy - 135.0ms
+2026-05-20 00:53:35,860 - INFO - GitHub API healthy - 149.11ms
+2026-05-20 00:53:36,058 - INFO - Google healthy - 196.9ms
+2026-05-20 00:53:36,134 - INFO - OpenAI healthy - 76.0ms
+2026-05-20 00:53:40,873 - INFO - GitHub API healthy - 149.0ms
+2026-05-20 00:53:41,081 - INFO - Google healthy - 207.0ms
+2026-05-20 00:53:41,148 - INFO - OpenAI healthy - 65.99ms
+2026-05-20 00:53:49,844 - INFO - GitHub API healthy - 126.02ms
+2026-05-20 00:53:50,023 - INFO - Google healthy - 178.98ms
+2026-05-20 00:53:50,096 - INFO - OpenAI healthy - 73.02ms
+2026-05-20 00:54:49,881 - INFO - GitHub API healthy - 153.99ms
+2026-05-20 00:54:50,064 - INFO - Google healthy - 183.01ms
+2026-05-20 00:54:50,138 - INFO - OpenAI healthy - 73.99ms
+2026-05-20 00:55:49,886 - INFO - GitHub API healthy - 166.0ms
+2026-05-20 00:55:50,091 - INFO - Google healthy - 205.01ms
+2026-05-20 00:55:50,167 - INFO - OpenAI healthy - 75.98ms
+2026-05-20 00:56:49,877 - INFO - GitHub API healthy - 158.0ms
+2026-05-20 00:56:50,105 - INFO - Google healthy - 228.0ms
+2026-05-20 00:56:50,155 - INFO - OpenAI healthy - 50.74ms
+2026-05-20 00:57:18,374 - INFO - GitHub API healthy - 142.0ms
+2026-05-20 00:57:18,535 - INFO - Google healthy - 160.55ms
+2026-05-20 00:57:18,592 - INFO - OpenAI healthy - 56.28ms
+2026-05-20 00:57:20,825 - INFO - GitHub API healthy - 148.01ms
+2026-05-20 00:57:21,006 - INFO - Google healthy - 181.0ms
+2026-05-20 00:57:21,080 - INFO - OpenAI healthy - 74.0ms
+2026-05-20 00:59:14,357 - INFO - GitHub API healthy - 232.5ms
+2026-05-20 00:59:14,683 - INFO - Google healthy - 325.76ms
+2026-05-20 00:59:14,802 - INFO - OpenAI healthy - 119.74ms
+2026-05-20 00:59:19,269 - INFO - GitHub API healthy - 143.01ms
+2026-05-20 00:59:19,578 - INFO - Google healthy - 308.2ms
+2026-05-20 00:59:19,684 - INFO - OpenAI healthy - 105.15ms
+2026-05-20 00:59:24,314 - INFO - GitHub API healthy - 186.88ms
+2026-05-20 00:59:24,569 - INFO - Google healthy - 254.51ms
+2026-05-20 00:59:24,672 - INFO - OpenAI healthy - 102.97ms
+2026-05-20 00:59:29,295 - INFO - GitHub API healthy - 167.0ms
+2026-05-20 00:59:29,565 - INFO - Google healthy - 270.66ms
+2026-05-20 00:59:29,681 - INFO - OpenAI healthy - 115.51ms
+2026-05-20 00:59:34,284 - INFO - GitHub API healthy - 151.17ms
+2026-05-20 00:59:34,488 - INFO - Google healthy - 203.37ms
+2026-05-20 00:59:34,589 - INFO - OpenAI healthy - 101.58ms
+2026-05-20 00:59:39,307 - INFO - GitHub API healthy - 181.84ms
+2026-05-20 00:59:39,564 - INFO - Google healthy - 256.86ms
+2026-05-20 00:59:39,660 - INFO - OpenAI healthy - 96.4ms
+2026-05-20 00:59:44,256 - INFO - GitHub API healthy - 133.64ms
+2026-05-20 00:59:44,465 - INFO - Google healthy - 209.47ms
+2026-05-20 00:59:44,572 - INFO - OpenAI healthy - 107.28ms
+2026-05-20 00:59:49,300 - INFO - GitHub API healthy - 175.21ms
+2026-05-20 00:59:49,529 - INFO - Google healthy - 229.21ms
+2026-05-20 00:59:49,634 - INFO - OpenAI healthy - 103.59ms
+2026-05-20 00:59:54,291 - INFO - GitHub API healthy - 167.66ms
+2026-05-20 00:59:54,549 - INFO - Google healthy - 257.61ms
+2026-05-20 00:59:54,629 - INFO - OpenAI healthy - 80.73ms
+2026-05-20 00:59:59,270 - INFO - GitHub API healthy - 147.3ms
+2026-05-20 00:59:59,511 - INFO - Google healthy - 240.89ms
+2026-05-20 00:59:59,617 - INFO - OpenAI healthy - 105.85ms
+2026-05-20 01:00:04,918 - INFO - GitHub API healthy - 191.54ms
+2026-05-20 01:00:05,176 - INFO - Google healthy - 258.69ms
+2026-05-20 01:00:05,305 - INFO - OpenAI healthy - 127.41ms
+2026-05-20 01:00:09,284 - INFO - GitHub API healthy - 149.67ms
+2026-05-20 01:00:09,517 - INFO - Google healthy - 232.21ms
+2026-05-20 01:00:09,587 - INFO - OpenAI healthy - 69.86ms
+2026-05-20 01:00:14,280 - INFO - GitHub API healthy - 154.79ms
+2026-05-20 01:00:14,576 - INFO - Google healthy - 296.16ms
+2026-05-20 01:00:14,699 - INFO - OpenAI healthy - 122.96ms
+2026-05-20 01:00:19,379 - INFO - GitHub API healthy - 248.58ms
+2026-05-20 01:00:19,599 - INFO - Google healthy - 220.44ms
+2026-05-20 01:00:19,696 - INFO - OpenAI healthy - 96.44ms
+2026-05-20 01:00:24,292 - INFO - GitHub API healthy - 171.53ms
+2026-05-20 01:00:24,514 - INFO - Google healthy - 220.72ms
+2026-05-20 01:00:24,604 - INFO - OpenAI healthy - 90.21ms
+2026-05-20 01:00:30,000 - INFO - GitHub API healthy - 276.02ms
+2026-05-20 01:00:30,255 - INFO - Google healthy - 254.65ms
+2026-05-20 01:00:30,334 - INFO - OpenAI healthy - 78.27ms
+2026-05-20 01:00:34,876 - INFO - GitHub API healthy - 150.87ms
+2026-05-20 01:00:35,113 - INFO - Google healthy - 235.38ms
+2026-05-20 01:00:35,183 - INFO - OpenAI healthy - 70.56ms
+2026-05-20 01:00:39,337 - INFO - GitHub API healthy - 208.51ms
+2026-05-20 01:00:39,526 - INFO - Google healthy - 189.15ms
+2026-05-20 01:00:39,616 - INFO - OpenAI healthy - 90.05ms
+2026-05-20 01:00:44,873 - INFO - GitHub API healthy - 159.63ms
+2026-05-20 01:00:45,117 - INFO - Google healthy - 243.77ms
+2026-05-20 01:00:45,199 - INFO - OpenAI healthy - 82.32ms
+2026-05-20 01:00:49,917 - INFO - GitHub API healthy - 202.92ms
+2026-05-20 01:00:50,210 - INFO - Google healthy - 293.48ms
+2026-05-20 01:00:50,309 - INFO - OpenAI healthy - 98.03ms
+2026-05-20 01:00:54,870 - INFO - GitHub API healthy - 152.2ms
+2026-05-20 01:00:55,087 - INFO - Google healthy - 216.69ms
+2026-05-20 01:00:55,168 - INFO - OpenAI healthy - 81.24ms
+2026-05-20 01:00:59,872 - INFO - GitHub API healthy - 155.42ms
+2026-05-20 01:01:00,100 - INFO - Google healthy - 227.46ms
+2026-05-20 01:01:00,218 - INFO - OpenAI healthy - 116.78ms
+2026-05-20 01:01:04,856 - INFO - GitHub API healthy - 139.12ms
+2026-05-20 01:01:05,105 - INFO - Google healthy - 248.95ms
+2026-05-20 01:01:05,175 - INFO - OpenAI healthy - 67.96ms
+2026-05-20 01:01:09,863 - INFO - GitHub API healthy - 152.11ms
+2026-05-20 01:01:10,105 - INFO - Google healthy - 240.67ms
+2026-05-20 01:01:10,197 - INFO - OpenAI healthy - 92.25ms
+2026-05-20 01:01:14,879 - INFO - GitHub API healthy - 147.99ms
+2026-05-20 01:01:15,118 - INFO - Google healthy - 238.7ms
+2026-05-20 01:01:15,209 - INFO - OpenAI healthy - 90.82ms
+2026-05-20 01:01:19,873 - INFO - GitHub API healthy - 150.16ms
+2026-05-20 01:01:20,130 - INFO - Google healthy - 256.6ms
+2026-05-20 01:01:20,224 - INFO - OpenAI healthy - 94.18ms
+2026-05-20 01:01:24,922 - INFO - GitHub API healthy - 200.7ms
+2026-05-20 01:01:25,132 - INFO - Google healthy - 210.57ms
+2026-05-20 01:01:25,202 - INFO - OpenAI healthy - 69.65ms
+2026-05-20 01:01:29,928 - INFO - GitHub API healthy - 214.36ms
+2026-05-20 01:01:30,228 - INFO - Google healthy - 298.13ms
+2026-05-20 01:01:30,381 - INFO - OpenAI healthy - 153.93ms
+2026-05-20 01:01:34,901 - INFO - GitHub API healthy - 184.48ms
+2026-05-20 01:01:35,127 - INFO - Google healthy - 226.36ms
+2026-05-20 01:01:35,219 - INFO - OpenAI healthy - 90.99ms
+2026-05-20 01:01:39,865 - INFO - GitHub API healthy - 148.1ms
+2026-05-20 01:01:40,094 - INFO - Google healthy - 228.0ms
+2026-05-20 01:01:40,196 - INFO - OpenAI healthy - 101.86ms
+2026-05-20 01:01:49,919 - INFO - GitHub API healthy - 186.22ms
+2026-05-20 01:01:50,185 - INFO - Google healthy - 266.79ms
+2026-05-20 01:01:50,285 - INFO - OpenAI healthy - 99.34ms

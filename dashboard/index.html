@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PulseCheck Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>PulseCheck Monitoring Dashboard</h1>
+
+        <!-- Overall Status -->
+        <div class="status-card">
+
+            <div class="status-header">
+
+                <div>
+                    <h2>Overall Health</h2>
+
+                    <p id="overall-status">Loading...</p>
+
+                    <p id="health-score"></p>
+                </div>
+
+                <div class="system-summary">
+
+                    <p id="service-count"></p>
+
+                    <p id="last-updated"></p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Services -->
+        <div class="services-container"
+             id="services-container">
+        </div>
+
+        <!-- Chart -->
+        <div class="chart-container">
+
+            <canvas id="latencyChart"></canvas>
+
+        </div>
+
+        <!-- Metrics -->
+        <div class="metrics-container">
+
+            <div class="metric-card">
+
+                <h3>CPU Usage</h3>
+
+                <p id="cpu"></p>
+
+            </div>
+
+            <div class="metric-card">
+
+                <h3>Memory Usage</h3>
+
+                <p id="memory"></p>
+
+            </div>
+
+            <div class="metric-card">
+
+                <h3>Disk Usage</h3>
+
+                <p id="disk"></p>
+
+            </div>
+
+        </div>
+
+        <!-- Alerts -->
+        <div class="alerts-panel">
+
+            <h2>Alerts</h2>
+
+            <div id="alerts"></div>
+
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
